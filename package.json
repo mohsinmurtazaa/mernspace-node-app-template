@@ -7,5 +7,9 @@
     "dev": "node src/server.js"
   },
   "author": "Mohsin Murtaza <mohsinmurtaza1402@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
 }
