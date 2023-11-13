@@ -11,7 +11,7 @@ const startServer = () => {
             logger.error(error.message);
             setTimeout(() => {
                 process.exit(1);
-            }, 3000);
+            }, 1000);
         }
     }
 };
